@@ -9,14 +9,12 @@
 #define LANGUAGE_CULT           "Cult"
 #define LANGUAGE_SIGN           "Sign Language"
 #define LANGUAGE_INDEPENDENT    "Independent"
-#define LANGUAGE_NABBER         "Serpentid"
 #define LANGUAGE_SPACER         "Spacer Creole"
 #define LANGUAGE_ALIUM          "Alium"
 #define LANGUAGE_OCCULT         "Occult"
 #define LANGUAGE_VOX            "Vox Pidgin"
 #define LANGUAGE_XENOPHAGE      "Xenophage"
 #define LANGUAGE_XENOPHAGE_HIVE "Hivemind"
-#define LANGUAGE_RESOMI         "Schechi"
 
 // Language flags.
 #define WHITELISTED  1   // Language is available if the speaker is whitelisted.

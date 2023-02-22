@@ -266,9 +266,7 @@
 #define SPECIES_IPC         "Machine"
 #define SPECIES_UNATHI      "Unathi"
 #define SPECIES_SKRELL      "Skrell"
-#define SPECIES_NABBER      "giant armoured serpentid"
 #define SPECIES_XENO        "Xenophage"
-#define SPECIES_RESOMI      "Teshari"
 #define SPECIES_ALIEN       "Humanoid"
 
 #define SURGERY_CLOSED 0

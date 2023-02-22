@@ -12,8 +12,7 @@
 	brightness_on = 4
 	sprite_sheets = list(
 		SPECIES_SKRELL = 'resources/icons/mob/species/skrell/helmet.dmi',
-		SPECIES_UNATHI = 'resources/icons/mob/species/unathi/helmet.dmi',
-		SPECIES_RESOMI = 'resources/icons/mob/species/resomi/helmet.dmi'
+		SPECIES_UNATHI = 'resources/icons/mob/species/unathi/helmet.dmi'
 		)
 	species_restricted = null
 
@@ -48,10 +47,7 @@
 	breach_threshold = 38
 	resilience = 0.2
 	can_breach = 1
-	sprite_sheets = list(
-		SPECIES_UNATHI = 'resources/icons/mob/species/unathi/suit.dmi',
-		SPECIES_RESOMI = 'resources/icons/mob/species/resomi/suit.dmi'
-		)
+	sprite_sheets = list(SPECIES_UNATHI = 'resources/icons/mob/species/unathi/suit.dmi')
 	var/list/supporting_limbs = list() //If not-null, automatically splints breaks. Checked when removing the suit.
 
 /obj/item/clothing/suit/space/rig/equipped(mob/M)

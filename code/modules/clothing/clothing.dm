@@ -3,7 +3,7 @@
 	siemens_coefficient = 0.9
 	var/flash_protection = FLASH_PROTECTION_NONE	// Sets the item's level of flash protection.
 	var/tint = TINT_NONE							// Sets the item's level of visual impairment tint.
-	var/list/species_restricted = list("exclude", SPECIES_NABBER) //Only these species can wear this kit.
+	var/list/species_restricted = list("exclude") //Only these species can wear this kit.
 
 	var/list/accessories = list()
 	var/list/valid_accessory_slots
@@ -171,7 +171,6 @@
 	w_class = ITEM_SIZE_TINY
 	throwforce = 2
 	slot_flags = SLOT_EARS
-	sprite_sheets = list(SPECIES_RESOMI = 'resources/icons/mob/species/resomi/ears.dmi')
 
 /obj/item/clothing/ears/update_clothing_icon()
 	if (is_mob(src.loc))
@@ -273,8 +272,7 @@
 	var/light_protection = 0
 	sprite_sheets = list(
 		SPECIES_VOX = 'resources/icons/mob/species/vox/eyes.dmi',
-		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/eyes.dmi',
-		SPECIES_RESOMI = 'resources/icons/mob/species/resomi/eyes.dmi',
+		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/eyes.dmi'
 		)
 
 /obj/item/clothing/glasses/get_icon_state(mob/user_mob, slot)
@@ -304,12 +302,10 @@
 	body_parts_covered = HANDS
 	slot_flags = SLOT_GLOVES
 	attack_verb = list("challenged")
-	species_restricted = list("exclude",SPECIES_NABBER, SPECIES_UNATHI,SPECIES_VOX)
+	species_restricted = list("exclude", SPECIES_UNATHI,SPECIES_VOX)
 	sprite_sheets = list(
 		SPECIES_VOX = 'resources/icons/mob/species/vox/gloves.dmi',
-		SPECIES_NABBER = 'resources/icons/mob/species/nabber/gloves.dmi',
-		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/hands.dmi',
-		SPECIES_RESOMI = 'resources/icons/mob/species/resomi/gloves.dmi',
+		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/hands.dmi'
 		)
 	blood_overlay_type = "bloodyhands"
 
@@ -421,8 +417,7 @@
 
 	sprite_sheets = list(
 		SPECIES_VOX = 'resources/icons/mob/species/vox/head.dmi',
-		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/head.dmi',
-		SPECIES_RESOMI = 'resources/icons/mob/species/resomi/head.dmi'
+		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/head.dmi'
 		)
 	blood_overlay_type = "helmetblood"
 
@@ -518,8 +513,7 @@
 	body_parts_covered = FACE|EYES
 	sprite_sheets = list(
 		SPECIES_VOX = 'resources/icons/mob/species/vox/masks.dmi',
-		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/mask.dmi',
-		SPECIES_RESOMI = 'resources/icons/mob/species/resomi/masks.dmi',
+		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/mask.dmi'
 		)
 
 	var/voicechange = 0
@@ -602,11 +596,10 @@
 	permeability_coefficient = 0.50
 	force = 2
 	var/overshoes = 0
-	species_restricted = list("exclude", SPECIES_NABBER, SPECIES_UNATHI, SPECIES_VOX)
+	species_restricted = list("exclude", SPECIES_UNATHI, SPECIES_VOX)
 	sprite_sheets = list(
 		SPECIES_VOX = 'resources/icons/mob/species/vox/shoes.dmi',
-		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/feet.dmi',
-		SPECIES_RESOMI = 'resources/icons/mob/species/resomi/shoes.dmi',
+		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/feet.dmi'
 		)
 	blood_overlay_type = "shoeblood"
 
@@ -685,9 +678,7 @@
 
 	sprite_sheets = list(
 		SPECIES_VOX = 'resources/icons/mob/species/vox/suit.dmi',
-		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/suit.dmi',
-		SPECIES_NABBER = 'resources/icons/mob/species/nabber/suit.dmi',
-		SPECIES_RESOMI = 'resources/icons/mob/species/resomi/suit.dmi'
+		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/suit.dmi'
 		)
 
 /obj/item/clothing/suit/update_clothing_icon()
@@ -736,9 +727,7 @@
 	var/rolled_sleeves = -1 //0 = unrolled, 1 = rolled, -1 = cannot be toggled
 	sprite_sheets = list(
 		SPECIES_VOX = 'resources/icons/mob/species/vox/uniform.dmi',
-		SPECIES_NABBER = 'resources/icons/mob/species/nabber/uniform.dmi',
-		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/uniform.dmi',
-		SPECIES_RESOMI = 'resources/icons/mob/species/resomi/uniform.dmi',
+		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/uniform.dmi'
 		)
 
 	//convenience var for defining the icon state for the overlay used when the clothing is worn.
@@ -969,5 +958,5 @@
 	icon = 'resources/icons/obj/clothing/rings.dmi'
 	slot_flags = SLOT_GLOVES
 	gender = NEUTER
-	species_restricted = list("exclude", SPECIES_NABBER)
+	species_restricted = list("exclude")
 	var/undergloves = 1

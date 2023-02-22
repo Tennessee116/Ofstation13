@@ -20,7 +20,7 @@ var/datum/robolimb/basic_robolimb
 	var/has_eyes = TRUE
 	var/can_feel_pain
 	var/skintone
-	var/list/species_cannot_use = list(SPECIES_RESOMI)
+	var/list/species_cannot_use = list()
 	var/list/restricted_to = list()
 	var/list/applies_to_part = list() //TODO.
 
@@ -163,30 +163,6 @@ var/datum/robolimb/basic_robolimb
 	skintone = 1
 	unavailable_at_fab = 1
 	restricted_to = list(SPECIES_HUMAN, "Grav-Adapted Human", "Space-Adapted Human", "Vat-Grown Human")
-
-/datum/robolimb/resomi
-	company = "Small prosthetic"
-	desc = "This prosthetic is small and fit for nonhuman proportions."
-	icon = 'resources/icons/mob/human_races/cyberlimbs/resomi/resomi_main.dmi'
-	restricted_to = list(SPECIES_RESOMI)
-	species_cannot_use = list()
-	applies_to_part = list(BP_L_ARM, BP_R_ARM, BP_L_LEG, BP_R_LEG, BP_L_FOOT, BP_R_FOOT, BP_L_HAND, BP_R_HAND)
-
-
-/datum/robolimb/cenilimisybernetics
-	company = "Cenilimi Cybernetics"
-	desc = "This prosthetic is created by a Teshari-owned company, for Teshari."
-	icon = 'resources/icons/uristmob/species/teshari/cenilimicybernetics/cenilimicybernetics.dmi'
-	restricted_to = list(SPECIES_RESOMI)
-	species_cannot_use = list()
-
-/datum/robolimb/unbrandedteshari
-	company = "Unbranded - Teshari"
-	desc = "This prosthetic is small and fit for nonhuman proportions."
-	icon = 'resources/icons/uristmob/species/teshari/unbranded/unbranded.dmi'
-	restricted_to = list(SPECIES_RESOMI)
-	species_cannot_use = list()
-
 
 /datum/robolimb/grayson
 	company = "Grayson"

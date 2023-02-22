@@ -13,7 +13,6 @@
 	language = LANGUAGE_GALCOM
 	secondary_langs = list(
 		LANGUAGE_SPACER,
-		LANGUAGE_SKRELLIAN,
-		LANGUAGE_RESOMI
+		LANGUAGE_SKRELLIAN
 	)
 	ruling_body = FACTION_RAF

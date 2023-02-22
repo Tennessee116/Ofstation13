@@ -7,9 +7,6 @@
 	thoroughly permeate the society."
 	language = LANGUAGE_SKRELLIAN
 	additional_langs = list(LANGUAGE_GALCOM)
-	secondary_langs = list(
-		LANGUAGE_RESOMI
-	)
 
 /decl/cultural_info/faction/skrell/arda_republic
 	name = FACTION_RAF
@@ -20,7 +17,6 @@
 	degeneracy by its enemies."
 	language = LANGUAGE_GALCOM
 	secondary_langs = list(
-		LANGUAGE_RESOMI,
 		LANGUAGE_SKRELLIAN,
 		LANGUAGE_SPACER,
 		LANGUAGE_SIGN

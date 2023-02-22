@@ -41,7 +41,6 @@
 #include "cultures/cultures_human.dm"
 #include "cultures/cultures_machine.dm"
 #include "cultures/cultures_skrell.dm"
-#include "cultures/cultures_teshari.dm"
 #include "cultures/cultures_unathi.dm"
 #include "cultures/cultures_vox.dm"
 
@@ -50,14 +49,12 @@
 #include "factions/factions_human.dm"
 #include "factions/factions_machine.dm"
 #include "factions/factions_skrell.dm"
-#include "factions/factions_teshari.dm"
 #include "factions/factions_unathi.dm"
 #include "factions/factions_vox.dm"
 
 // Define locations
 #include "locations/locations_human.dm"
 #include "locations/locations_skrell.dm"
-#include "locations/locations_teshari.dm"
 #include "locations/locations_unathi.dm"
 #include "locations/locations_vox.dm"
 
