@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       # Fetch
-      - name: Fetch latest
+      - name: Fetch master
         uses: actions/checkout@v2
         with:
-          ref: latest
+          ref: master
 
       - name: Fetch PR commits
         uses: actions/checkout@v2
