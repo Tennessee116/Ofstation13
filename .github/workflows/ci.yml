@@ -2,10 +2,10 @@ name: CI
 on:
   push:
     branches:
-    - latest
+    - master
   pull_request:
     branches:
-    - latest
+    - master
 
 jobs:
   run_linters:
