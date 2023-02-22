@@ -47,8 +47,6 @@ For assets and other works:
 * [Creative Commons 3.0 BY-SA license](http://creativecommons.org/licenses/by-sa/3.0/)
 * [SIL Open Font License](https://www.tldrlegal.com/l/ofl) for Font Awesome fonts
 
-Other exceptions may exist
-
 #### In detail
 The code for Baystation12 is licensed under the [GNU Affero General Public License v3](http://www.gnu.org/licenses/agpl.html), which can be found in full in [LICENSE.txt](https://github.com/Tennessee116/Ofstation13/blob/master/LICENSE). See Urist McStation's [readme](https://github.com/UristMcStation/UristMcStation/blob/master/README.md) for more licensing information related to using the Baystation12 code modified by Urist, Haven, and Ofstation.
 
