@@ -13,7 +13,7 @@ jobs:
   MakeCL:
     runs-on: ubuntu-latest
     # discriminator to exclude forks
-    if: github.repository == 'Haven-13/Haven-Urist'
+    if: github.repository == 'Tennessee116/Ofstation13'
     steps:
       - name: Checkout
         uses: actions/checkout@v1
@@ -33,7 +33,7 @@ jobs:
         run: |
           git config --local user.email $GIT_EMAIL
           git config --local user.name "$GIT_NAME"
-          git pull origin latest
+          git pull origin master
           git commit -m "Auto-CL compile [ci skip]" -a || true
       - name: Push
         uses: ad-m/github-push-action@master
