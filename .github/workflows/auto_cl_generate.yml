@@ -2,7 +2,7 @@ name: Changelog Automaker (Generate PR CL)
 
 on:
   push:
-    branches: [latest]
+    branches: [master]
   workflow_dispatch:
     inputs:
       oref:
@@ -12,13 +12,13 @@ on:
 env:
   GIT_EMAIL: "action@github.com"
   GIT_NAME: "Changelog Automaker"
-  GIT_BRANCH: "latest"
+  GIT_BRANCH: "master"
 
 jobs:
   MakeCL:
     runs-on: ubuntu-latest
     # discriminator to exclude forks
-    if: github.repository == 'Haven-13/Haven-Urist'
+    if: github.repository == 'Tennessee116/Ofstation13'
     steps:
       - name: Checkout
         uses: actions/checkout@v1
