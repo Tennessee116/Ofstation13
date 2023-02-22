@@ -1,10 +1,7 @@
 /obj/item/clothing/glasses
 	name = "glasses"
 	icon = 'resources/icons/obj/clothing/glasses.dmi'
-	sprite_sheets = list(
-		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/eyes.dmi',
-		SPECIES_RESOMI = 'resources/icons/mob/species/resomi/eyes.dmi'
-		)
+	sprite_sheets = list(SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/eyes.dmi')
 	var/hud_type
 	var/prescription = FALSE
 	var/toggleable = FALSE

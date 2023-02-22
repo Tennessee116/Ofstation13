@@ -97,7 +97,6 @@
 	"Overreaching Nanotrasen Asset Protection",
 	"The RD getting murdered horribly during an away mission",
 	"Vox stowaways",
-	"Dead Resomii",
 	"Egg-laying",
 	"Rouge AI",
 	"Straightjacket and sedation tactics",

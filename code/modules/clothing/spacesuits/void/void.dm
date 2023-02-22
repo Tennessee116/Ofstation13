@@ -13,13 +13,11 @@
 	species_restricted = list(SPECIES_HUMAN, SPECIES_IPC)
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'resources/icons/mob/species/unathi/helmet.dmi',
-		SPECIES_SKRELL = 'resources/icons/mob/species/skrell/helmet.dmi',
-		SPECIES_RESOMI = 'resources/icons/mob/species/resomi/helmet.dmi',
+		SPECIES_SKRELL = 'resources/icons/mob/species/skrell/helmet.dmi'
 		)
 	sprite_sheets_obj = list(
 		SPECIES_UNATHI = 'resources/icons/obj/clothing/species/unathi/hats.dmi',
-		SPECIES_SKRELL = 'resources/icons/obj/clothing/species/skrell/hats.dmi',
-		SPECIES_RESOMI = 'resources/icons/obj/clothing/species/resomi/hats.dmi',
+		SPECIES_SKRELL = 'resources/icons/obj/clothing/species/skrell/hats.dmi'
 		)
 
 	light_overlay = "helmet_light"
@@ -39,13 +37,11 @@
 	species_restricted = list(SPECIES_HUMAN, SPECIES_SKRELL, SPECIES_IPC)
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'resources/icons/mob/species/unathi/suit.dmi',
-		SPECIES_SKRELL = 'resources/icons/mob/species/skrell/suit.dmi',
-		SPECIES_RESOMI = 'resources/icons/mob/species/resomi/suit.dmi',
+		SPECIES_SKRELL = 'resources/icons/mob/species/skrell/suit.dmi'
 		)
 	sprite_sheets_obj = list(
 		SPECIES_UNATHI = 'resources/icons/obj/clothing/species/unathi/suits.dmi',
-		SPECIES_SKRELL = 'resources/icons/obj/clothing/species/skrell/suits.dmi',
-		SPECIES_RESOMI = 'resources/icons/obj/clothing/species/resomi/suits.dmi',
+		SPECIES_SKRELL = 'resources/icons/obj/clothing/species/skrell/suits.dmi'
 		)
 
 	//Breach thresholds, should ideally be inherited by most (if not all) voidsuits.

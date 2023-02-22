@@ -108,11 +108,6 @@
 
 #define FACTION_POSITRONICS    "Positronic Union"
 
-// Serpentid cultures.
-#define CULTURE_SERPENTID      "Serpentid Labourer"
-
-#define HOME_SYSTEM_SERPENTIDS "Tau-Wilo"
-
 // Unathi cultures.
 #define CULTURE_UNATHI              "Moghes Hegemony"
 
@@ -135,12 +130,6 @@
 #define CULTURE_XENOPHAGE_S    "Xenophage Sentinel"
 #define CULTURE_XENOPHAGE_Q    "Xenophage Queen"
 #define FACTION_XENOPHAGE      "Xenophage Hive"
-
-// Teshari culture. TODO?: Add more Factions
-#define CULTURE_TESHARI           "Teshari"
-
-#define FACTION_TESHARI_QERRBALAK "Qerrbalak Packs"
-#define FACTION_TESHARI_SPACEBORN "Spaceborn Teshari"
 
 //galactic crisis stuff
 #define CULTURE_LACTERA				"Lactera Trooper"

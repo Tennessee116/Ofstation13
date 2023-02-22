@@ -360,41 +360,6 @@
 	damagetype = DAMAGE_TYPE_PAIN
 
 // =================================================================
-// Nabbers
-// =================================================================
-
-/datum/unit_test/mob_damage/nabber
-	name = "MOB: GAS damage check template"
-	mob_type = /mob/living/carbon/human/nabber
-
-/datum/unit_test/mob_damage/nabber/brute
-	name = "MOB: GAS Brute Damage Check"
-	damagetype = DAMAGE_TYPE_BRUTE
-	expected_vulnerability = ARMORED
-
-/datum/unit_test/mob_damage/nabber/fire
-	name = "MOB: GAS Fire Damage Check"
-	damagetype = DAMAGE_TYPE_BURN
-	expected_vulnerability = EXTRA_VULNERABLE
-
-/datum/unit_test/mob_damage/nabber/tox
-	name = "MOB: GAS Toxins Damage Check"
-	damagetype = DAMAGE_TYPE_TOXIN
-
-/datum/unit_test/mob_damage/nabber/oxy
-	name = "MOB: GAS Oxygen Damage Check"
-	damagetype = DAMAGE_TYPE_ASPHYXIA
-	expected_vulnerability = ARMORED
-
-/datum/unit_test/mob_damage/nabber/clone
-	name = "MOB: GAS Clone Damage Check"
-	damagetype = DAMAGE_TYPE_GENETIC
-
-/datum/unit_test/mob_damage/nabber/halloss
-	name = "MOB: GAS Halloss Damage Check"
-	damagetype = DAMAGE_TYPE_PAIN
-
-// =================================================================
 // SPECIAL WHITTLE SNOWFLAKES aka IPC
 // =================================================================
 

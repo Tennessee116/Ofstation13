@@ -98,7 +98,6 @@
 		H.step_count++
 
 /datum/species/var/silent_steps
-/datum/species/nabber/silent_steps = 1
 
 /mob/living/carbon/human/var/step_count
 

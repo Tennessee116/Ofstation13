@@ -23,10 +23,6 @@
 /mob/living/carbon/human/dummy/mannequin/InitializeHud()
 	return	// Mannequins don't get HUDs
 
-/mob/living/carbon/human/resomi/New(var/new_loc)
-	h_style = "Resomi Plumage"
-	..(new_loc, SPECIES_RESOMI)
-
 /mob/living/carbon/human/skrell/New(var/new_loc)
 	h_style = "Skrell Male Tentacles"
 	..(new_loc, SPECIES_SKRELL)
@@ -41,10 +37,6 @@
 
 /mob/living/carbon/human/machine/New(var/new_loc)
 	..(new_loc, SPECIES_IPC)
-
-/mob/living/carbon/human/nabber/New(var/new_loc)
-	pulling_punches = 1
-	..(new_loc, SPECIES_NABBER)
 
 /mob/living/carbon/human/monkey/New(var/new_loc)
 	..(new_loc, "Monkey")

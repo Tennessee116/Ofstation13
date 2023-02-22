@@ -30,9 +30,6 @@
 	var/base_state
 	flash_protection = FLASH_PROTECTION_MAJOR
 	tint = TINT_HEAVY
-	sprite_sheets = list(
-		SPECIES_RESOMI = 'resources/icons/mob/species/resomi/head.dmi'
-		)
 
 /obj/item/clothing/head/welding/attack_self()
 	toggle()

@@ -15,8 +15,7 @@
 	pull_mask = 1
 	sprite_sheets = list(
 		SPECIES_VOX = 'resources/icons/mob/species/vox/masks.dmi',
-		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/mask.dmi',
-		SPECIES_RESOMI = 'resources/icons/mob/species/resomi/masks.dmi'
+		SPECIES_UNATHI = 'resources/icons/mob/onmob/Unathi/mask.dmi'
 		)
 
 /obj/item/clothing/mask/breath/medical

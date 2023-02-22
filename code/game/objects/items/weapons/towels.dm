@@ -24,7 +24,3 @@
 	color = "#ffd700"
 	force = 1
 	attack_verb = list("smote")
-
-/obj/item/weapon/towel/equipped(var/M, var/slot)
-	..()
-	sprite_sheets = list(SPECIES_RESOMI = (slot == slot_head ? 'resources/icons/mob/species/resomi/head.dmi' : 'resources/icons/mob/species/resomi/suit.dmi'))

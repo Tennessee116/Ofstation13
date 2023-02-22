@@ -32,7 +32,7 @@ GLOBAL_DATUM_INIT(scommies, /datum/antagonist/scom, new)
 	initial_spawn_req = 1
 	initial_spawn_target = 99 //we're hijacking spawning in scomtime/scom join
 
-	valid_species = list("Unathi","Skrell","Human","Resomi")
+	valid_species = list("Unathi","Skrell","Human")
 	min_player_age = 0
 	id_type = /obj/item/weapon/card/id/centcom/ERT
 	default_access = list() //TODO

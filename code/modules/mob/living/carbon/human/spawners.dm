@@ -204,19 +204,10 @@
 /obj/effect/spawner/carbon/human/skrell/talum //Worst caste
 	caste_colors = list(1 = list(102, 0, 255), 2 = list(51, 102, 255), 3 = list(153, 0, 204), 4 = list(150, 150, 150))
 
-
 //Unathi clans
 
 /obj/effect/spawner/carbon/human/unathi
 	species = SPECIES_UNATHI
-
-//Teshari
-
-/obj/effect/spawner/carbon/human/teshari
-	species = SPECIES_RESOMI
-
-
-//IPCs/Synths
 
 //Spawner Outfits
 

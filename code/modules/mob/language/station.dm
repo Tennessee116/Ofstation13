@@ -86,26 +86,7 @@
 		return "[pick(list("PBU","HIU","SINA","ARMA","OSI"))]-[rand(100, 999)]"
 	return pick(GLOB.ai_names)
 
-/datum/language/resomi
-	name = LANGUAGE_RESOMI
-	desc = "A trilling language spoken by the diminutive Teshari."
-	speech_verb = "chirps"
-	ask_verb = "chirrups"
-	exclaim_verb = "trills"
-	colour = "alien"
-	key = "v"
-	flags = WHITELISTED
-	space_chance = 50
-	shorthand = "SCH"
-	syllables = list(
-			"ca", "ra", "ma", "sa", "na", "ta", "la", "sha", "scha", "a", "a",
-			"ce", "re", "me", "se", "ne", "te", "le", "she", "sche", "e", "e",
-			"ci", "ri", "mi", "si", "ni", "ti", "li", "shi", "schi", "i", "i"
-		)
-
-/datum/language/resomi/get_random_name(gender)
-	return ..(gender, 1, 4, 1.5)
-
+/
 //Syllable Lists
 /*
 	This list really long, mainly because I can't make up my mind about which mandarin syllables should be removed,
@@ -178,21 +159,6 @@
 	"danya","da","mied","zan","das","krem","myka","to","st","no","na","ni",
 	"ko","ne","en","po","ra","li","on","byl","cto","eni","ost","ol","ego","ver","stv","pro")
 	shorthand = "IN"
-
-/datum/language/nabber
-	name = LANGUAGE_NABBER
-	desc = "A strange language that can be understood both by the sounds made and by the movement needed to create those sounds."
-	signlang_verb = list("chitters", "grinds its mouthparts", "chitters and grinds its mouthparts")
-	key = "n"
-	flags = RESTRICTED | SIGNLANG | NO_STUTTER | NONVERBAL
-	colour = ".nabber_lang"
-	shorthand = "SD"
-
-/datum/language/nabber/get_random_name(var/gender)
-	if(gender == FEMALE)
-		return capitalize(pick(GLOB.first_names_female))
-	else
-		return capitalize(pick(GLOB.first_names_male))
 
 /datum/language/spacer
 	name = LANGUAGE_SPACER

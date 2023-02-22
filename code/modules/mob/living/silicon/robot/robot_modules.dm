@@ -29,7 +29,6 @@ var/global/list/robot_modules = list(
 		LANGUAGE_UNATHI = 0,
 		LANGUAGE_SIIK_MAAS = 0,
 		LANGUAGE_SKRELLIAN = 0,
-		LANGUAGE_RESOMI = 0,
 		LANGUAGE_GUTTER = 1,
 		LANGUAGE_SIGN = 0,
 		LANGUAGE_INDEPENDENT = 1,
@@ -522,7 +521,6 @@ var/global/list/robot_modules = list(
 					LANGUAGE_SKRELLIAN	= 1,
 					LANGUAGE_LUNAR	= 1,
 					LANGUAGE_RESOMI		= 1,
-					LANGUAGE_GUTTER		= 1,
 					LANGUAGE_INDEPENDENT= 1,
 					LANGUAGE_SPACER = 1
 					)
