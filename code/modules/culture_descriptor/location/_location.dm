@@ -4,7 +4,7 @@
 		LANGUAGE_SIGN
 	)
 	category = TAG_HOMEWORLD
-	var/distance = 0
+	var/distance
 	var/ruling_body = FACTION_SOL_CENTRAL
 	var/capital
 
