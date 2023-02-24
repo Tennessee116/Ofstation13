@@ -75,7 +75,6 @@
 	override_limb_types = list(BP_HEAD = /obj/item/organ/external/head/unathi)
 
 	descriptors = list(
-		/datum/mob_descriptor/height = 2,
 		/datum/mob_descriptor/build = 2
 		)
 
