@@ -109,7 +109,8 @@
 #define FACTION_POSITRONICS    "Positronic Union"
 
 // Unathi cultures.
-#define CULTURE_UNATHI              "Moghes Hegemony"
+#define CULTURE_UNATHI_TALL		"Surface Tribe"
+#define CULTURE_UNATHI_SHORT    "Subterranean Tribe"
 
 #define HOME_SYSTEM_MOGHES          "Moghes"
 
