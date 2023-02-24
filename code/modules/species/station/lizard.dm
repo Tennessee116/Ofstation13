@@ -81,7 +81,8 @@
 
 	available_cultural_info = list(
 		TAG_CULTURE = list(
-			CULTURE_UNATHI
+			CULTURE_UNATHI_TALL,
+			CULTURE_UNATHI_SHORT
 		),
 		TAG_HOMEWORLD = list(
 			HOME_SYSTEM_MOGHES
