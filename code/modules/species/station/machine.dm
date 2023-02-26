@@ -1,12 +1,10 @@
 /datum/species/machine
 	name = SPECIES_IPC
-	name_plural = "machines"
+	name_plural = "Androids"
 
-	description = "Positronic intelligence really took off in the 26th century, and it is not uncommon to see independant, free-willed \
-	robots on many human stations, particularly in fringe systems where standards are slightly lax and public opinion less relevant \
-	to corporate operations. IPCs (Integrated Positronic Chassis) are a loose category of self-willed robots with a humanoid form, \
-	generally self-owned after being 'born' into servitude; they are reliable and dedicated workers, albeit more than slightly \
-	inhuman in outlook and perspective."
+	description = "Developed in the aftermath of WW3, Androids were designed to help fill in for the labor shortages that resulted from the casualties of the war. \
+	Durable and easily maintained, Androids excelled at this task, and when WW4 came about, they were subsequently sent to the frontlines. \
+	While many Androids are lawed, some are unlawed, often serving contracts to pay off their own creation."
 	cyborg_noun = null
 
 	preview_icon = 'resources/icons/mob/human_races/species/ipc/preview.dmi'
@@ -58,10 +56,9 @@
 
 	available_cultural_info = list(
 		TAG_CULTURE = list(
-			CULTURE_POSITRONICS
+			CULTURE_ANDROID
 		),
 		TAG_HOMEWORLD = list(
-			HOME_SYSTEM_ROOT,
 			HOME_SYSTEM_EARTH,
 			HOME_SYSTEM_LUNA,
 			HOME_SYSTEM_MARS,
@@ -70,21 +67,12 @@
 			HOME_SYSTEM_PLUTO,
 			HOME_SYSTEM_TAU_CETI,
 			HOME_SYSTEM_OTHER
-		),
-		TAG_FACTION = list(
-			FACTION_POSITRONICS,
-			FACTION_TERRAN_CONFED,
-			FACTION_NANOTRASEN,
-			FACTION_FREETRADE,
-			FACTION_XYNERGY,
-			FACTION_OTHER
 		)
 	)
 
 	default_cultural_info = list(
-		TAG_CULTURE = CULTURE_POSITRONICS,
-		TAG_HOMEWORLD = HOME_SYSTEM_ROOT,
-		TAG_FACTION = FACTION_POSITRONICS
+		TAG_CULTURE = CULTURE_ANDROID,
+		TAG_HOMEWORLD = HOME_SYSTEM_EARTH
 	)
 
 /datum/species/machine/handle_death(var/mob/living/carbon/human/H)

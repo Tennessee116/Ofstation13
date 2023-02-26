@@ -40,7 +40,7 @@
 
 #define CULTURE_OTHER          "Other Culture"
 #define CULTURE_HUMAN          "Humankind"
-#define CULTURE_HUMAN_VATGROWN "Nonborn"
+#define CULTURE_HUMAN_VATGROWN "Vatgrown"
 #define CULTURE_HUMAN_MARTIAN  "Martian, Surfacer"
 #define CULTURE_HUMAN_MARSTUN  "Martian, Tunneller"
 #define CULTURE_HUMAN_LUNAPOOR "Luna, Lower Class"
@@ -62,18 +62,6 @@
 #define CULTURE_STOK           "Stok Business"
 #define CULTURE_ALIUM          "Mysterious Aliens"
 #define CULTURE_CULTIST        "Blood Cult"
-#define RELIGION_OTHER         "Other Religion"
-#define RELIGION_JUDAISM       "Judaism"
-#define RELIGION_HINDUISM      "Hinduism"
-#define RELIGION_BUDDHISM      "Buddhism"
-#define RELIGION_ISLAM         "Islam"
-#define RELIGION_CHRISTIANITY  "Christianity"
-#define RELIGION_AGNOSTICISM   "Agnosticism"
-#define RELIGION_DEISM         "Deism"
-#define RELIGION_ATHEISM       "Atheism"
-#define RELIGION_THELEMA       "Thelema"
-#define RELIGION_SPIRITUALISM  "Spiritualism"
-
 // Skrellian cultures.
 #define CULTURE_SKRELL_QERR     "Qerr-Katish"
 #define CULTURE_SKRELL_MALISH   "Malish-Katish"
@@ -92,18 +80,8 @@
 #define HOME_SYSTEM_VOX_SHROUD "Shroud-Dweller"
 #define HOME_SYSTEM_VOX_SHIP   "Ship-Dweller"
 
-#define FACTION_VOX_RAIDER     "Raider"
-#define FACTION_VOX_CREW       "Ark Labourer"
-#define FACTION_VOX_APEX       "Apex Servant"
-
-#define RELIGION_VOX           "Auralis Reverence"
-
 // IPC cultures.
-#define CULTURE_POSITRONICS    "Union Member"
-
-#define HOME_SYSTEM_ROOT       "Root"
-
-#define FACTION_POSITRONICS    "Positronic Union"
+#define CULTURE_ANDROID    "Artificial Construct"
 
 // Unathi cultures.
 #define CULTURE_UNATHI_TALL		"Surface Tribe"
@@ -111,23 +89,11 @@
 
 #define HOME_SYSTEM_MOGHES          "Moghes"
 
-#define FACTION_UNATHI_POLAR        "Polar Clans"
-#define FACTION_UNATHI_DESERT       "Desert Clans"
-#define FACTION_UNATHI_SAVANNAH     "Savannah Clans"
-#define FACTION_UNATHI_DIAMOND_PEAK "Diamond Peak Clans"
-#define FACTION_UNATHI_SALT_SWAMP   "Salt Swamp Clans"
-
-#define RELIGION_UNATHI_STRATAGEM    "Grand Stratagem"
-#define RELIGION_UNATHI_PRECURSOR    "Precursor"
-#define RELIGION_UNATHI_VINE         "Hand of the Vine"
-#define RELIGION_UNATHI_LIGHTS       "The Fruitful Lights"
-
 // Xenophage cultures.
 #define CULTURE_XENOPHAGE_D    "Xenophage Drone"
 #define CULTURE_XENOPHAGE_H    "Xenophage Hunter"
 #define CULTURE_XENOPHAGE_S    "Xenophage Sentinel"
 #define CULTURE_XENOPHAGE_Q    "Xenophage Queen"
-#define FACTION_XENOPHAGE      "Xenophage Hive"
 
 //galactic crisis stuff
 #define CULTURE_LACTERA				"Lactera Trooper"
