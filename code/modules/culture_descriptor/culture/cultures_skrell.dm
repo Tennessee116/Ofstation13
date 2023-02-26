@@ -9,7 +9,7 @@
 	name = CULTURE_SKRELL_SULQURL
 	description = "The backbone of Skrellian society, The Sul'Qurl are the largest of the three castes. They can be found all across \
 	Skrell society in nearly any role, forming the basis of the Skrellion work force. Out of all the castes, the Sul'Qurl have the strongest sense of \
-	comaraderie, putting a great deal of emphasis on the good of the community as a whole and loyalty to one's friends and family."
+	comaraderie, putting a great deal of emphasis on the good of the community as a whole and loyalty to one's superiors, friends and family."
 
 /singleton/cultural_info/culture/skrell/caste_tarsik
 	name = CULTURE_SKRELL_TARSIKAR
