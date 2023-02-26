@@ -1,14 +1,23 @@
-/decl/cultural_info/location/qerrbalak
+/singleton/cultural_info/location/qerrbalak
 	name = HOME_SYSTEM_QERRBALAK
-	description = "Qerr'Balak, in the Qerr'Valis system, is the ancient home of skrellkind. A large, swampy world, it consists of two continents separated by \
-		an archipelago filled ocean. The smaller continent, and original home of the Skrell civilisation, Qorr'gloa, is mostly swampland, with most cities being \
-		built on the coast. It is separated by the Qo'rria Sea from the other, larger continent, Xi'Krri'oal, which is more populous and varied, with snowy \
-		mountains in the south to temperate zones in the inner areas. Composed of hundreds of city-states, Qerr'Balak is still home to a sizable population of Skrell. \
-		While no longer the sole powerhouse of the Skrell civilisation, it is still widely respected among skrellkind as their homeworld, and for its academic and \
-		scientific prowess."
-	language = LANGUAGE_SKRELLIAN
-	additional_langs = list(LANGUAGE_GALCOM)
-	capital = "None"
+	description = "Qerr'Balak is the home world of the Skrell. Almost completely covered in water, the planet is dotted with small islands and two large \
+	continents that are covered in swamplands. The majority of the Skrell resides beneath the waves in underwater cities, but the \
+	mainland also possesses several large cities, dedicated to helping the Skrell explore the stars."
+	ruling_body = "The "
+
+/singleton/cultural_info/location/talamira
+	name = HOME_SYSTEM_TELINKEER
+	description = "Telin'Keer is one of the Skrell's frontier colonies, relatively far from their homeworld and close to Humanity. \
+	Rich in plasma, they trade a great deal with their human allies, \
+	and their distance from the main Skrell Empire and proximity to Humanity has had affected their culture. \
+	While they still adhere to the caste system, it is far looser on Telin'Keer, and some members of the lower castes have managed to rise \
+	above their station as a result."
 	ruling_body = "None"
-	distance = "67 light years"
-	economic_power = 1.5
+
+/singleton/cultural_info/location/roasora
+	name = HOME_SYSTEM_QARSEM
+	description = "Qar'Sem is an independent planet first discovered by a fleet of Tarsik outcasts, who quickly settled the planet and formed the Kar'Sune, \
+	A republic that declared the planet a sanctuary for those who opposed the injustices of the Skrellian caste system and the Skrellian government. \
+	Rich in natural resources, Roa'Sora soon proved to be a thorn in the side of the Skrellian empire, as the more militant inhabitants began \
+	obtaining weapons to defend their planet, and become a safe haven for pirates who plundered Skrellian merchant ships."
+	ruling_body = "The Kar'Sune"

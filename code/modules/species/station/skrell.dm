@@ -6,11 +6,11 @@
 	preview_icon = 'resources/icons/mob/human_races/species/skrell/preview.dmi'
 	primitive_form = "Neaera"
 	unarmed_types = list(/datum/unarmed_attack/punch)
-	description = "An amphibious species, Skrell come from the star system known as Qerr'Vallis, which translates to 'Star of \
-	the royals' or 'Light of the Crown'.<br/><br/>Skrell are a highly advanced and logical race who live under the rule \
-	of the Qerr'Katish, a caste within their society which keeps the empire of the Skrell running smoothly. Skrell are \
-	herbivores on the whole and tend to be co-operative with the other species of the galaxy, although they rarely reveal \
-	the secrets of their empire to their allies."
+	description = "A species of amphibious, colorful aliens, Skrell are relatively new to the galactic stage. \
+	While their technology is about on par with humans in most regards, excelling in a few fields, they are relatively weak in military strength, \
+	forcing them to rely on their human allies for protection. They are herbivores, and generally prefer to resolve situations with words instead of force. \
+	Skrell are divided into three main castes, which determines their social status and role in society, with these castes being assigned based on their \
+	abilities and temperament in their youth."
 	health_hud_intensity = 1.75
 	meat_type = /obj/item/weapon/reagent_containers/food/snacks/fish/octopus
 	genders = list(PLURAL)
@@ -69,18 +69,6 @@
 		),
 		TAG_HOMEWORLD = list(
 			HOME_SYSTEM_QERRBALAK
-		),
-		TAG_FACTION = list(
-			FACTION_NANOTRASEN,
-			FACTION_PCRC,
-			FACTION_HEPHAESTUS,
-			FACTION_OTHER
-		),
-		TAG_RELIGION =  list(
-			RELIGION_OTHER,
-			RELIGION_ATHEISM,
-			RELIGION_DEISM,
-			RELIGION_AGNOSTICISM
 		)
 	)
 
