@@ -17,7 +17,7 @@
 
 /singleton/cultural_info/location/human/luna
 	name = HOME_SYSTEM_LUNA
-	description = "The shining star of human civilization, Luna is the home base for numerous corporations, including the prestigious Nanotrasen Corporation. \
+	description = "The shining star of human civilization, Luna is the home base for numerous corporations. \
 	While on the surface it is a shiny, sleek place, it's a facade for an incredible economic gap between the rich and poor, with ruthless laws \
 	denying protection to those in debt with the corporations. For the lucky few at the top, it is still a dangerous, cutthroat world where \
 	one wrong move can lead to economic ruin or assassination."
@@ -54,17 +54,18 @@
 
 /singleton/cultural_info/location/human/almspitze
 	name = HOME_SYSTEM_ALMSPITZE
-	description = "Pluto has never been, and never will be relevant. Initially a shipyard, surveillance station and resupply point for American	extrasolar expeditions, \
-	it quickly fell out of use. Now the area is an Autonomous Oblast of the Solar Authority, used as a dumping ground for undesirables. \
-	The only people who visit Pluto willingly are smugglers, slavers and other debased individuals."
-	ruling_body = FACTION_BUNDESRUPBLIK_ALMSPITZE
+	description = "Almspitze 5 is a cold, mountainous planet, only experiencing generally habitable weather along its equator. \
+	The administrative and military capital of the Bundesrepublik Almspitze, most of its temperate land is used for farming, \
+	with mining operations existing in the polar regions of the planet. Few people leave Almspitze, and even fewer enter due to the polity's closed borders. \
+	The one thing that leaves en-masse is weapons, as the Bundesrepublik's arms industry is only second to the SA."
+	ruling_body = "Bundesrupblik Almspitze"
 
 /singleton/cultural_info/location/human/providencia
 	name = HOME_SYSTEM_PROVIDENCIA
 	description = "Providencia is the most populated world in the Pheromidian Confederacy. \
 	The tidally-locked world was once the region's refining capital, taking advantage of the planet's constant geothermal activity. \
 	After the Del Monte coup, the world's industry has been targeted by constitutionalist guerrillas, demanding that the dictator be deposed."
-	ruling_body = FACTION_PHEROMIDIAN
+	ruling_body = "Pheromidian Confederacy"
 
 /singleton/cultural_info/location/human/psyltosk
 	name = HOME_SYSTEM_PSYLTOSK
@@ -72,4 +73,4 @@
 	It happens to be the single greatest producer of meat and grain in the colonies, but the real money is in the docks. \
 	Situated between mineral rich confederacy and the developed industry of the SA, \
 	the Psyltosk port authority has made their world into a galactic shipping hub."
-	ruling_body = FACTION_PSYLTOSK
+	ruling_body = "Tsardom of Psyltosk:

@@ -1,5 +1,5 @@
 /decl/cultural_info/culture/vox
-	name = CULTURE_VOX_ARKSHIP
+	name = CULTURE_VOX
 	language = LANGUAGE_VOX
 	default_language = LANGUAGE_VOX
 	name_language = LANGUAGE_VOX
