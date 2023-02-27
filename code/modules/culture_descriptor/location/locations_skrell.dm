@@ -3,7 +3,7 @@
 	description = "Qerr'Balak is the home world of the Skrell. Almost completely covered in water, the planet is dotted with small islands and two large \
 	continents that are covered in swamplands. The majority of the Skrell resides beneath the waves in underwater cities, but the \
 	mainland also possesses several large cities, dedicated to helping the Skrell explore the stars."
-	ruling_body = "The "
+	ruling_body = "None"
 
 /singleton/cultural_info/location/talamira
 	name = HOME_SYSTEM_TELINKEER
