@@ -2,7 +2,7 @@
 #define TAG_HOMEWORLD "home_system"
 #define ALL_CULTURAL_TAGS list( \
 	TAG_CULTURE = "Culture", \
-	TAG_HOMEWORLD = "Homeworld", \
+	TAG_HOMEWORLD = "Homeworld" \
 	)
 
 // Cultural IDs.
@@ -77,7 +77,7 @@
 #define CULTURE_UNATHI_TALL		"Surface Tribe"
 #define CULTURE_UNATHI_SHORT    "Subterranean Tribe"
 
-#define HOME_SYSTEM_MOGHES          "Moghes"
+#define HOME_SYSTEM_MOGHES 		"Moghes"
 
 // Xenophage cultures.
 #define CULTURE_XENOPHAGE_D    "Xenophage Drone"
