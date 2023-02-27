@@ -535,3 +535,6 @@
   - bugfix: Fixed areas appearing underneath the world in map editors
   - tweak: AIs can no longer interact with portable generators
   - bugfix: Fixed the Pacman generator reopening the UI when running
+2023-02-27:
+  Tennessee116:
+  - tweak: The heel cord is now back to being the Achilles tendon.
