@@ -88,7 +88,8 @@
 		LANGUAGE_HUMAN_RUSSIAN,
 		LANGUAGE_SPACER,
 		LANGUAGE_GUTTER,
-		LANGUAGE_SIGN)
+		LANGUAGE_SIGN
+	)
 
 /singleton/cultural_info/culture/human/earthling
 	name = CULTURE_HUMAN_EARTH
