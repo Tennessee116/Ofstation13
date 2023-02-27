@@ -29,9 +29,9 @@
 	max_age = 260
 
 	description = "A reptillian species native to the planet of Moghes, Unathi can generally be split into two groups. The tall, bulky surface dwellers \
-    who roam the surface of their desert world in primitive tribes, possessing little in the way of advanced technology save that which they trade for or steal. \
-    The shorter ones who live in the underground cave systems of their world are more advanced, both culturally and technologically. Both groups possess \
-    a strong regenerative factor, and are adapted to the scorching heat of their homeworld."
+	who roam the surface of their desert world in primitive tribes, possessing little in the way of advanced technology save that which they trade for or steal. \
+	The shorter ones who live in the underground cave systems of their world are more advanced, both culturally and technologically. Both groups possess \
+	a strong regenerative factor, and are adapted to the scorching heat of their homeworld."
 
 	cold_level_1 = 280 //Default 260 - Lower is better
 	cold_level_2 = 220 //Default 200

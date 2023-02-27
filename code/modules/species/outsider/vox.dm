@@ -7,9 +7,9 @@
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick,  /datum/unarmed_attack/claws/strong, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite/strong)
 	rarity_value = 4
 	description = "The Vox are a pre-FTL transport society, clustered around their nitrogen-rich home nebula. . \
-    Originally found within valuable cobalt bearing asteroids seemingly able to survive off of the Nitrogen within their home Nebula, they quickly became a menace to travelers, \
- 	stealing ships via violent boarding action and ram raids and murdering or enslaving their crews. \
-   	They rarely venture outside of their nebula of origin, apart for small frigates in search of larger ships to board."
+	Originally found within valuable cobalt bearing asteroids seemingly able to survive off of the Nitrogen within their home Nebula, they quickly became a menace to travelers, \
+	stealing ships via violent boarding action and ram raids and murdering or enslaving their crews. \
+	They rarely venture outside of their nebula of origin, apart for small frigates in search of larger ships to board."
 
 	taste_sensitivity = TASTE_DULL
 	speech_sounds = list('resources/sound/voice/shriek1.ogg')
