@@ -72,14 +72,12 @@
 	culture being mainly about embracing change, new people and new experiences, as well as a sense of pride in their work, as the reputation of Ceres shipbuilding is widely known across \
 	human space."
 
-
 /singleton/cultural_info/culture/human/plutonian
 	name = CULTURE_HUMAN_PLUTO
 	description = "You are from Pluto, one of many denizens of this cruel and unforgiving world. For centuries Pluto has been in a slow state of decay and decline, resulting in \
 	much of the planet's infrastructure being unstable or outright falling apart. This, coupled with rampant corruption and the large influence of criminal organisations across much of \
 	the planet has led to the people of Pluto having something of a seedy reputation, its citizens being viewed with disrepute. The people themselves, however, are usually \
 	just happy to get off the rock and to healthier locales. Unfortunately, despite the efforts of the wider SA, many Plutonians tend to maintain criminal ties, even offworld."
-
 	secondary_langs = list (LANGUAGE_HUMAN_EURO,
 		LANGUAGE_HUMAN_CHINESE,
 		LANGUAGE_HUMAN_ARABIC,

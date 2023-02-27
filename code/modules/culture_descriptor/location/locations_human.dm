@@ -73,4 +73,4 @@
 	It happens to be the single greatest producer of meat and grain in the colonies, but the real money is in the docks. \
 	Situated between mineral rich confederacy and the developed industry of the SA, \
 	the Psyltosk port authority has made their world into a galactic shipping hub."
-	ruling_body = "Tsardom of Psyltosk:
+	ruling_body = "Tsardom of Psyltosk"
