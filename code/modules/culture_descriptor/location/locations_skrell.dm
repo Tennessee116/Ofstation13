@@ -21,3 +21,11 @@
 	Rich in natural resources, Roa'Sora soon proved to be a thorn in the side of the Skrellian empire, as the more militant inhabitants began \
 	obtaining weapons to defend their planet, and become a safe haven for pirates who plundered Skrellian merchant ships."
 	ruling_body = "The Kar'Sune"
+
+/singleton/cultural_info/location/moquk
+    name = HOME_SYSTEM_MOQUK
+    description = "Moq'Uk is located on the moon of Qerr'Balak, and is home to the largest military training outpost and military spacecraft manufacturing dock within the Skrellian Empire. \
+    Built a year after major disruptions due to Kar'Sune pirates caused shortages of various luxury and essential goods on Qerr'Balak prompting the government to act, \
+ 	and is almost exclusively inhabited by Am'Emir and Sul'qurl and the occasional diplomat and military advisor from the Solar authority. \
+	Skrell from both castes are trained to become effective officers and soldiers respectively. With a special focused placed on boarding action, \
+	The low gravity of the moon provides the ideal training environment for the SDF to manufacture patrol frigates and practice anti-piracy boarding techniques"
