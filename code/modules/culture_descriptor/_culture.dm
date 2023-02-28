@@ -9,7 +9,6 @@
 	var/list/additional_langs
 	var/list/secondary_langs
 	var/category
-	var/subversive_potential = 0
 	var/hidden
 
 /decl/cultural_info/New()

@@ -1,10 +1,7 @@
 /decl/cultural_info/location/moghes
 	name = HOME_SYSTEM_MOGHES
-	description = "A dead world full of strange, monstrous creatures and mysterious and dangerous landscapes; \
-	this is the home of the Unathi. Unathi believe this world was once lush and full of life, but due to the \
-	decisions of the Precursors, it was killed and left to rot. For the Unathi, it is their duty to bring it \
-	back to life, or to become strong enough that they don't have to."
+	description = "A desert world dotted with oases and numerous cave systems, Moghes is a harsh and brutal place. \
+	Home to the Unathi tribes, the surface dwellers battle over scarce resources, \
+	while the tribes beneath the surface develop new technology and strange ideologies."
 	language = LANGUAGE_UNATHI
-	ruling_body = "Clan Hegemony"
-	distance = "20 light years"
-	secondary_langs = list(LANGUAGE_SIGN)
+	ruling_body = "None"

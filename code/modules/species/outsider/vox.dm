@@ -6,12 +6,10 @@
 	husk_icon = 'resources/icons/mob/human_races/species/vox/husk.dmi'
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick,  /datum/unarmed_attack/claws/strong, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite/strong)
 	rarity_value = 4
-	description = "The Vox are the broken remnants of a once-proud race, now reduced to little more than \
-	scavenging vermin who prey on isolated stations, ships or planets to keep their own ancient arkships \
-	alive. They are four to five feet tall, reptillian, beaked, tailed and quilled; human crews often \
-	refer to them as 'shitbirds' for their violent and offensive nature, as well as their horrible \
-	smell.<br/><br/>Most humans will never meet a Vox raider, instead learning of this insular species through \
-	dealing with their traders and merchants; those that do rarely enjoy the experience."
+	description = "The Vox are a pre-FTL transport society, clustered around their nitrogen-rich home nebula. . \
+	Originally found within valuable cobalt bearing asteroids seemingly able to survive off of the Nitrogen within their home Nebula, they quickly became a menace to travelers, \
+	stealing ships via violent boarding action and ram raids and murdering or enslaving their crews. \
+	They rarely venture outside of their nebula of origin, apart for small frigates in search of larger ships to board."
 
 	taste_sensitivity = TASTE_DULL
 	speech_sounds = list('resources/sound/voice/shriek1.ogg')
@@ -68,22 +66,10 @@
 
 	available_cultural_info = list(
 		TAG_CULTURE =   list(
-			CULTURE_VOX_ARKSHIP,
-			CULTURE_VOX_SALVAGER,
-			CULTURE_VOX_RAIDER
+			CULTURE_VOX
 		),
 		TAG_HOMEWORLD = list(
-			HOME_SYSTEM_VOX_ARK,
-			HOME_SYSTEM_VOX_SHROUD,
-			HOME_SYSTEM_VOX_SHIP
-		),
-		TAG_FACTION = list(
-			FACTION_VOX_RAIDER,
-			FACTION_VOX_CREW,
-			FACTION_VOX_APEX
-		),
-		TAG_RELIGION =  list(
-			RELIGION_VOX
+			HOME_SYSTEM_VOX
 		)
 	)
 

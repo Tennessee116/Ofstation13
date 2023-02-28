@@ -263,7 +263,7 @@
 
 #define SPECIES_HUMAN       "Human"
 #define SPECIES_VOX         "Vox"
-#define SPECIES_IPC         "Machine"
+#define SPECIES_IPC         "Android"
 #define SPECIES_UNATHI      "Unathi"
 #define SPECIES_SKRELL      "Skrell"
 #define SPECIES_XENO        "Xenophage"
