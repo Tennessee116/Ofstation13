@@ -273,7 +273,7 @@
 	if(affecting.incapacitated(INCAPACITATION_KNOCKOUT | INCAPACITATION_STUNNED))
 		to_chat(G.assailant, "<span class='warning'>You can't resist in your current state!</span>")
 
-	var/break_strength = breakability + size_difference(affecting, assailant)
+	var/break_strength = breakability + size_difference(affecting, assailant) + assailant.rand_stat(BODY, 0.75)
 
 	if(affecting.incapacitated(INCAPACITATION_ALL))
 		break_strength--

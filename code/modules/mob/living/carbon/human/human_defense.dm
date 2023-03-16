@@ -326,7 +326,14 @@ meteor_act
 		var/miss_chance = 15
 		if (O.throw_source)
 			var/distance = get_dist(O.throw_source, loc)
+
+			if(stat_user && stats[decls_repository.get_decl(VIGILANCE)] > 0)
+				miss_chance = rand_stat(decls_repository.get_decl(VIGILANCE), 0.75)
+			else
+				miss_chance = max(15*(distance-2), 0)
+
 			miss_chance = max(15*(distance-2), 0)
+
 		zone = get_zone_with_miss_chance(zone, src, miss_chance, ranged_attack=1)
 
 		if(zone && O.thrower != src)
