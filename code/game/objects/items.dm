@@ -495,7 +495,14 @@ var/list/global/slot_flags_enumeration = list(
 	return
 
 /obj/item/proc/get_parry_chance(mob/user)
-	. = base_parry_chance
+	var/parry_chance = base_parry_chance
+
+	if(istype(user, /mob/living))
+		var/mob/living/living_user = user
+		if(living_user.stat_user)
+			parry_chance *= max(base_parry_chance, living_user.rand_stat(decls_repository.get_decl(VIGILANCE), 0.02))
+
+	return parry_chance
 
 /obj/item/proc/get_loc_turf()
 	var/atom/L = loc
