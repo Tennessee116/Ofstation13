@@ -177,9 +177,14 @@
 		var/throw_damage = O.throwforce*(speed/THROWFORCE_SPEED_DIVISOR)
 
 		var/miss_chance = 15
+
 		if (O.throw_source)
 			var/distance = get_dist(O.throw_source, loc)
-			miss_chance = max(15*(distance-2), 0)
+
+			if(stat_user && stats[decls_repository.get_decl(VIGILANCE)] > 0)
+				miss_chance = rand_stat(decls_repository.get_decl(VIGILANCE), 0.75)
+			else
+				miss_chance = max(15*(distance-2), 0)
 
 		if (prob(miss_chance))
 			visible_message("<span class='notice'>\The [O] misses [src] narrowly!</span>")

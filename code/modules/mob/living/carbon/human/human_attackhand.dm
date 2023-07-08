@@ -125,7 +125,7 @@
 				attack_generic(H,rand(1,3),"punched")
 				return
 
-			var/rand_damage = rand(1, 5)
+			var/rand_damage = rand_stat(BODY, 0.1)
 			var/block = 0
 			var/accurate = 0
 			var/hit_zone = H.zone_sel.selecting
@@ -161,7 +161,7 @@
 
 			if(src.grabbed_by.len || !src.MayMove() || src==H || H.species.species_flags & SPECIES_FLAG_NO_BLOCK)
 				accurate = 1 // certain circumstances make it impossible for us to evade punches
-				rand_damage = 5
+				rand_damage += 3
 
 			// Process evasion and blocking
 			var/miss_type = 0
